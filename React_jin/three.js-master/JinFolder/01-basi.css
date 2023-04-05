@@ -1,0 +1,20 @@
+* {
+    outline : none; /*전체 페이지 요소에 대해 외곽선을 제거하고 여백을 0으로 지정한다*/
+    margin : 0;
+}
+
+body{
+    overflow : hidden; /*페이지에 스크롤바가 생길 경우 숨긴다*/
+}
+
+
+
+/*id가 wehgl-container인 div 요소를 페이지에 꽉차도록 페이지 구성*/
+#wehgl-container{
+    position: absolute;
+    top : 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+}
+
